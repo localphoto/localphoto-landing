@@ -31,14 +31,17 @@ export default function Home() {
             </defs>
           </svg>
         </div>
-        <div className="hidden px-6 pt-6 lg:px-8">
+        <div className="px-6 pt-6 lg:px-8">
           <nav
             className="flex items-center justify-between"
             aria-label="Global"
           >
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5 font-medium text-pink-600">
-                local.photo
+              <a
+                href="#"
+                className="-m-1.5 p-1.5 font-mono text-2xl font-bold text-pink-600"
+              >
+                local.photo/
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -53,7 +56,7 @@ export default function Home() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="hidden text-sm font-semibold leading-6 text-gray-900"
               >
                 Log in <span aria-hidden="true">&rarr;</span>
               </a>

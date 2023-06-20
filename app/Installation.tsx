@@ -36,7 +36,7 @@ const timeline = [
             href={download.href}
             rel="noopener noreferrer"
             target={download.newTab ? "_blank" : "_self"}
-            className="mr-2 inline-flex items-center rounded border border-transparent bg-white px-2.5 py-1.5 text-xs font-medium text-pink-600 shadow-sm hover:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+            className="mb-2 mr-2 inline-flex items-center rounded border border-transparent bg-white px-2.5 py-1.5 text-xs font-medium text-pink-600 shadow-sm hover:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 sm:mb-0"
           >
             {download.os}
           </a>
