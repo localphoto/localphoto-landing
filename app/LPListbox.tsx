@@ -4,11 +4,17 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/24/outline";
 import { Fragment, useState } from "react";
 
-function classNames(...classes) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function LPListbox({ className, selections }) {
+export default function LPListbox({
+  className,
+  selections,
+}: {
+  className: string;
+  selections: any[];
+}) {
   const [selected, setSelected] = useState(selections[0]);
 
   return (
