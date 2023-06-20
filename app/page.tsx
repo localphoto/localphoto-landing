@@ -139,7 +139,7 @@ export default function Home() {
       </div>
 
       <footer className="pb-20">
-        <div className="mx-auto flex justify-center font-mono text-2xl font-bold text-gray-200">
+        <div className="mx-auto flex justify-center text-2xl font-bold text-gray-200">
           <a href="#">local.photo</a>
         </div>
       </footer>
