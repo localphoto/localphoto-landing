@@ -39,9 +39,9 @@ export default function Home() {
             <div className="flex lg:flex-1">
               <a
                 href="#"
-                className="-m-1.5 p-1.5 font-mono text-2xl font-bold text-pink-600"
+                className="-m-1.5 p-1.5 text-2xl font-bold text-pink-600"
               >
-                local.photo/
+                local.photo
               </a>
             </div>
             <div className="flex lg:hidden">
