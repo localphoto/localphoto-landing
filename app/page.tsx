@@ -1,3 +1,4 @@
+import { ApertureIcon } from "lucide-react";
 import Features from "./Features";
 import Installation from "./Installation";
 
@@ -41,7 +42,7 @@ export default function Home() {
                 href="#"
                 className="-m-1.5 p-1.5 text-2xl font-bold text-pink-600"
               >
-                local.photo
+                <ApertureIcon />
               </a>
             </div>
             <div className="flex lg:hidden">
@@ -83,19 +84,19 @@ export default function Home() {
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   The localhost for your photo library. Effortless organization,
-                  device sync, and secure sharing. The convenience you&#8217;re
-                  used to—without compromising your privacy
+                  powered by on-device AI. The convenience you&#8217;re used
+                  to—without compromising your privacy
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
-                  <a
-                    href="#get-started"
+                  {/* <a
+                    href="https://try.local.photo"
                     className="rounded-md bg-pink-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600"
                   >
                     Get started
-                  </a>
+                  </a> */}
                   <a
-                    href="/demo"
-                    className="text-base font-semibold leading-7 text-gray-900"
+                    href="https://try.local.photo"
+                    className="text-base font-semibold leading-7 text-pink-600"
                   >
                     Try the demo <span aria-hidden="true">→</span>
                   </a>
@@ -130,19 +131,19 @@ export default function Home() {
             </div>
           </div>
         </main>
-        <Features />
+        {/* <Features />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Installation />
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <footer className="pb-20">
+      {/* <footer className="pb-20">
         <div className="mx-auto flex justify-center text-2xl font-bold text-gray-200">
           <a href="#">local.photo</a>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }
