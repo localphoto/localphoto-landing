@@ -1,19 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async rewrites() {
-    return [
-      {
-        source: "/:path*",
-        has: [
-          {
-            type: "header",
-            key: "x-subdomain",
-            value: "try",
-          },
-        ],
-        destination: "/demo/:path*",
-      },
-    ];
+  async redirects() {
+    const redirects = [];
+
+    redirects.push({
+      source: `/polarbear`,
+      destination: `https://localphoto-assets.s3.us-east-2.amazonaws.com/demo/photos/waving.jpg`,
+      permanent: true,
+    });
+
+    return redirects;
   },
 };
 
