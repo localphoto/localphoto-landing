@@ -50,7 +50,7 @@ export default function PlacesMap({
             longitude={marker.longitude}
             latitude={marker.latitude}
           >
-            <Link href={`/photos/${marker.id}`}>
+            <Link href="https://try.local.photo/places">
               <Image
                 alt={marker.path}
                 className="h-10 w-10 rounded-full border-2 border-white shadow-lg shadow-black/50 transition will-change-auto hover:scale-125"
