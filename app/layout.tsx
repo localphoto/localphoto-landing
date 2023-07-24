@@ -1,7 +1,22 @@
+import { ThemeProvider } from "@/providers/ThemeProvider";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Work_Sans, Source_Sans_3, Source_Code_Pro } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const display = Work_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-display",
+});
+const sans = Source_Sans_3({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
+const mono = Source_Code_Pro({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
+});
 
 export const metadata = {
   title: "local.photo",
@@ -13,8 +28,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html
+      className={`${display.variable} ${sans.variable} ${mono.variable}`}
+      lang="en"
+    >
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
