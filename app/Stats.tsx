@@ -5,7 +5,7 @@ export default function Features() {
     <div className="bg-transparent py-24 dark:bg-gray-900 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-pink-500 text-white">
+          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md text-pink-600 text-white dark:text-pink-500">
             <BrainCircuitIcon className="h-6 w-6" aria-hidden="true" />
           </div>
           <p className="mt-2 font-display text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
@@ -22,7 +22,7 @@ export default function Features() {
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <dl className="flex justify-between xl:px-20">
             <div className="px-8 pt-8">
-              <dd className="text-2xl font-bold text-pink-500 sm:text-3xl sm:tracking-tight">
+              <dd className="text-2xl font-bold text-pink-600 dark:text-pink-500 sm:text-3xl sm:tracking-tight">
                 78%
               </dd>
               <dt className="text-base font-medium text-gray-500 dark:text-gray-300">
@@ -30,7 +30,7 @@ export default function Features() {
               </dt>
             </div>
             <div className="px-8 pt-8">
-              <dd className="text-2xl font-bold text-pink-500 sm:text-3xl sm:tracking-tight">
+              <dd className="text-2xl font-bold text-pink-600 dark:text-pink-500 sm:text-3xl sm:tracking-tight">
                 94%
               </dd>
               <dt className="text-base font-medium text-gray-500 dark:text-gray-300">
@@ -38,7 +38,7 @@ export default function Features() {
               </dt>
             </div>
             <div className="px-8 pt-8">
-              <dd className="text-2xl font-bold text-pink-500 sm:text-3xl sm:tracking-tight">
+              <dd className="text-2xl font-bold text-pink-600 dark:text-pink-500 sm:text-3xl sm:tracking-tight">
                 1000
               </dd>
               <dt className="text-base font-medium text-gray-500 dark:text-gray-300">

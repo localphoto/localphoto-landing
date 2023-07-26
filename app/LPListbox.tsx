@@ -65,7 +65,9 @@ export default function LPListbox({
                         {selected ? (
                           <span
                             className={classNames(
-                              active ? "text-white" : "text-pink-600",
+                              active
+                                ? "text-white"
+                                : "text-pink-600 dark:text-pink-500",
                               "absolute inset-y-0 left-0 flex items-center pl-1.5"
                             )}
                           >

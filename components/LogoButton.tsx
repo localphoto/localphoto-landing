@@ -63,7 +63,7 @@ export default function LogoButton() {
             className="group h-full bg-transparent px-0 hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent"
           >
             <div className="rounded-full bg-white p-2 shadow-md dark:bg-black">
-              <ApertureIcon className="text-pink-500 group-hover:animate-[spin_0.75s_ease-in-out]" />
+              <ApertureIcon className="text-pink-600 group-hover:animate-[spin_0.75s_ease-in-out] dark:text-pink-500" />
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -74,7 +74,7 @@ export default function LogoButton() {
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                     href="/"
                   >
-                    <ApertureIcon className="text-pink-500" />
+                    <ApertureIcon className="text-pink-600 dark:text-pink-500" />
                     <div className="mb-2 mt-4 font-display text-lg font-bold ">
                       local.photo
                     </div>

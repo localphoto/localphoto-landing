@@ -36,7 +36,7 @@ const timeline = [
             href={download.href}
             rel="noopener noreferrer"
             target={download.newTab ? "_blank" : "_self"}
-            className="mb-2 mr-2 inline-flex items-center rounded border border-transparent bg-white px-2.5 py-1.5 text-xs font-medium text-pink-600 shadow-sm hover:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 sm:mb-0"
+            className="mb-2 mr-2 inline-flex items-center rounded border border-transparent bg-white px-2.5 py-1.5 text-xs font-medium text-pink-600 shadow-sm hover:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 dark:text-pink-500 sm:mb-0"
           >
             {download.os}
           </a>
@@ -70,9 +70,13 @@ const timeline = [
     content: (
       <span>
         For Windows, use{" "}
-        <span className="font-mono font-bold text-pink-500">start.bat</span>.
-        For macOS or Linux, use{" "}
-        <span className="font-mono font-bold text-pink-500">start.sh</span>
+        <span className="font-mono font-bold text-pink-600 dark:text-pink-500">
+          start.bat
+        </span>
+        . For macOS or Linux, use{" "}
+        <span className="font-mono font-bold text-pink-600 dark:text-pink-500">
+          start.sh
+        </span>
         <br></br> If you&#8217;re comfortable with the command line, you can use
         the <span className="font-mono font-bold">docker compose up</span>{" "}
         command
@@ -97,7 +101,7 @@ export default function Installation() {
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2
             id="getting-started"
-            className="text-base font-semibold leading-7 text-pink-600"
+            className="text-base font-semibold leading-7 text-pink-600 dark:text-pink-500"
           >
             Getting started
           </h2>

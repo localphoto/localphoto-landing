@@ -41,7 +41,7 @@ export default function Features() {
     <div className="bg-white py-24 dark:bg-gray-900 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-pink-500">
+          <h2 className="text-base font-semibold leading-7 text-pink-600 dark:text-pink-500">
             For power users
           </h2>
           <p className="mt-2 font-display text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
@@ -58,7 +58,7 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-pink-500">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-pink-600">
                     <feature.icon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"

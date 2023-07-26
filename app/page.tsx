@@ -57,12 +57,13 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="font-display text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-                Take back control of <span className="text-pink-500">your</span>{" "}
+                Take back control of{" "}
+                <span className="text-pink-600 dark:text-pink-500">your</span>{" "}
                 photos
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
                 The{" "}
-                <span className="mx-0.5 font-mono text-pink-500">
+                <span className="mx-0.5 font-mono text-pink-600 dark:text-pink-500">
                   localhost
                 </span>{" "}
                 for your photo library. Effortless organization powered by

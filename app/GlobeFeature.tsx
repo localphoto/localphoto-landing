@@ -37,7 +37,7 @@ export default function GlobeFeature() {
         <div className="flex">
           <div className="w-full xl:w-1/3">
             <div className="mx-auto max-w-2xl">
-              <h2 className="text-lg font-semibold leading-8 tracking-tight text-pink-500">
+              <h2 className="text-lg font-semibold leading-8 tracking-tight text-pink-600 dark:text-pink-500">
                 Places
               </h2>
               <p className="mt-2 font-display text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
@@ -52,7 +52,7 @@ export default function GlobeFeature() {
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900 dark:text-white">
                       <feature.icon
-                        className="absolute left-1 top-1 h-5 w-5 text-pink-500"
+                        className="absolute left-1 top-1 h-5 w-5 text-pink-600 dark:text-pink-500"
                         aria-hidden="true"
                       />
                       {feature.name}
@@ -73,7 +73,7 @@ export default function GlobeFeature() {
 }
 
 {
-  /* <div className="relative isolate overflow-hidden bg-pink-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
+  /* <div className="relative isolate overflow-hidden bg-pink-600 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
               <div
                 className="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white"
                 aria-hidden="true"
