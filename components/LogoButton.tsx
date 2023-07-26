@@ -58,7 +58,10 @@ export default function LogoButton() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="group h-full bg-transparent px-0 hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent">
+          <NavigationMenuTrigger
+            aria-label="Menu"
+            className="group h-full bg-transparent px-0 hover:bg-transparent focus:bg-transparent data-[active]:bg-transparent data-[state=open]:bg-transparent"
+          >
             <div className="rounded-full bg-white p-2 shadow-md dark:bg-black">
               <ApertureIcon className="text-pink-500 group-hover:animate-[spin_0.75s_ease-in-out]" />
             </div>
