@@ -9,7 +9,7 @@ export default function Features() {
             <BrainCircuitIcon className="h-6 w-6" aria-hidden="true" />
           </div>
           <p className="mt-2 font-display text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-            Your AI assistant,<br></br>by the numbers.
+            Your AI assistant,<br></br>by the numbers
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
             Based on the open-source ResNet-152 model, your AI assistant can
