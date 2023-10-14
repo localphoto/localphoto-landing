@@ -67,7 +67,7 @@ export default function LogoButton() {
             </div>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid grid-cols-2 gap-3 p-6 md:w-[400px] lg:w-[500px]">
+            <ul className="grid w-[275px] grid-cols-1 gap-3 p-6 md:w-[400px] md:grid-cols-2 lg:w-[500px]">
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a
